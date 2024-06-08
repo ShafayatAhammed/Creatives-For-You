@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --pmr-color: #f44335;
+  --pmr-dark: #072125;
+  --pmr-font-weight: 700;
+}
+
+/* common css end */
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+hr {
+  border: 2px solid var(--pmr-dark);
+  z-index: -100;
+}
+
+.pmr-bg-color {
+  background-color: #fafafa;
+}
+
+.pmr-color {
+  color: var(--pmr-color);
+}
+
+.pmr-dark-color {
+  color: var(--pmr-dark);
+}
+
+.pmr-second-dark-color {
+  color: #20484f;
+}
+
+.pmr-font-size {
+  font-size: 64px;
+}
+
+.fs-6 {
+  font-size: 18px !important;
+}
+
+.pmr-font-weight {
+  font-weight: 700;
+}
+
+/* common css end */
+
+/* navbar css start */
+
+nav {
+  z-index: 100;
+}
+
+.nav-link {
+  &:hover {
+    color: var(--pmr-color) !important;
+  }
+}
+
+/* navbar css end */
+
+/* hero css start */
+
+.hero-heading {
+  & span {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+}
+
+.btn-hover-whts {
+  &:hover {
+    background-color: whitesmoke !important;
+  }
+}
+
+/* hero css end */
+
+/* problem css start */
+
+.prb-card {
+  .des-lg {
+    margin-bottom: 0;
+  }
+}
+
+/* problem css end */
+
+/* how it works css start */
+
+.hiw-elem-heading {
+  font-size: 32px;
+  font-weight: 800;
+  color: #1e212c;
+}
+
+.hiw-elem-para {
+  color: #787a80;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* how it works css end */
+
+/* testimonial css start */
+
+.rounded-xxl {
+  border-radius: 15px;
+}
+
+.quote {
+  width: 30px;
+  height: 25px;
+}
+
+.test-passion {
+  font-size: 14px;
+}
+
+/* testimonial css end */
+
+.footer {
+  width: 100%;
+  height: 100%;
+}
+
+.address {
+  font-size: 16px;
+}
+
+.li {
+  font-size: 16px;
+}
+
+.ac-link {
+  &:hover {
+    color: var(--pmr-color);
+  }
+}
+
+.max-112 {
+  max-width: 112px;
+}
+
+.gap-xl {
+  column-gap: 150px;
+  row-gap: 50px;
+}
+
+.gap-lg {
+  column-gap: 120px;
+  row-gap: 50px;
+}
+
+/* footer css end */
+
+/* media query start */
+
+@media only screen and (max-width: 1400px) {
+  .hero-heading {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .hero-des {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero-fst-heading {
+    font-size: 14px !important;
+  }
+
+  .hero-heading {
+    font-size: 30px;
+  }
+
+  .hero-des {
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero-fst-heading {
+    font-size: 13px !important;
+  }
+
+  .hero-heading {
+    font-size: 27px;
+  }
+
+  .hero-des {
+    font-size: 13px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .gap-row {
+    row-gap: 16px;
+  }
+
+  .test-header {
+    justify-content: center !important;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .hiw-heading {
+    font-size: 50px;
+  }
+
+  .hiw-sm-heading {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hiw-heading {
+    font-size: 40px;
+  }
+
+  .hiw-sm-heading {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .brand-para {
+    font-size: 17px !important;
+  }
+
+  .d-xs-none {
+    display: none;
+  }
+
+  .order-xs-1 {
+    order: 1;
+  }
+
+  .order-xs-2 {
+    order: 2;
+  }
+
+  .prb-card {
+    .heading {
+      font-size: 50px;
+    }
+  }
+
+  .hiw-elem-heading {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .test-header {
+    & h3 {
+      font-size: 21px !important;
+    }
+
+    & p {
+      font-size: 15px !important;
+    }
+  }
+
+  .quote-p {
+    font-size: 16px !important;
+  }
+
+  .test-passion {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero-heading {
+    font-size: 25px !important;
+  }
+
+  .hero-des {
+    font-size: 10.5px !important;
+  }
+
+  .copy-text {
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 391px) {
+  .justify-center-391 {
+    justify-content: center !important;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  .btn-w-100 {
+    width: 100%;
+  }
+}
+
+/* media query end */
